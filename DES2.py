@@ -192,4 +192,3 @@ def DES(plaintext,key):
     L,R = X,R # No swap
     cypher = permutation(L+R[2:],IP_1)
     return hex(int(cypher,2))
-#print(DES(mclair,'0x0123456789ABCDEF'))
